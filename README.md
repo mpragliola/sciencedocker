@@ -11,6 +11,12 @@ The image is based on
 * Python 3.4
 * Jupyter Notebook
 
+## Instructions
+
+* Clone the repository
+* Build the container
+* Launch the container
+
 ## Math, data manipulation 
 
 * Numpy
