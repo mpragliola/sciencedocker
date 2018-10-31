@@ -6,10 +6,10 @@ science and machine learning research. It features the most popular Python libra
 The image is based on 
 **Debian Jessie** distro.
 
-## Features
+## Requirements
 
-* Python 3.4
-* Jupyter Notebook
+* Docker
+* Docker Compose
 
 ## Instructions
 
@@ -17,7 +17,11 @@ The image is based on
 * Build the container
 * Launch the container
 
-## Math, data manipulation 
+## Features
+
+## Features
+
+### Math, data manipulation 
 
 * Numpy
 * Pandas
@@ -27,7 +31,7 @@ The image is based on
 * Beautiful Soup
 * Request
 
-## NLP (Natural Language Processing)
+### NLP (Natural Language Processing)
 
 * Gensim
 * NLTK
@@ -35,17 +39,17 @@ The image is based on
 * Compound word splitter
 * Spacy
 
-## Visualization
+### Visualization
 
 * Matplotlib
 * Seaborn
 
-## Deep Learning
+### Deep Learning
 
 * Tensorflow
 * Keras
 
-## Jupyter Notebook
+### Jupyter Notebook
 
 * Make sure port 8888 is available on your host machine
 * Upon launching the container, visit `http://localhost:8888`
@@ -54,17 +58,17 @@ The image is based on
   you can find a `jupyter_notebook_config.py` configuration
   under the `docker/` directory
 
-## Work dir
+### Work dir
 
 * A volume under `/work` is mounted as shared work folder between
   host and container
 
-## Todo's
+### Todo's
 
 * Refactor container to use a lighter image (Alpine?)
 * Try to implement and improve configurability
 
-## Contribution
+### Contribution
 
 Please feel free to PR this repository and contribute. This
 repository was born tailor made on my research and learning
