@@ -1,10 +1,11 @@
 FROM debian:jessie
 
-RUN apt update && apt upgrade
-RUN apt install -y \
-    enchant \
-    python3 \
-    python3-pip
+RUN apt-get update \
+    && apt-get upgrade \
+    && apt-get install -y \
+        enchant \
+        python3 \
+        python3-pip
 
 RUN python3 -m pip install pip setuptools six -U
 

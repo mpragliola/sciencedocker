@@ -54,7 +54,7 @@ The image is based on
 * Make sure port 8888 is available on your host machine
 * Upon launching the container, visit `http://localhost:8888`
 * Use `science` as password
-* If you want to change passeword or do other customizations,
+* If you want to change password or do other customizations,
   you can find a `jupyter_notebook_config.py` configuration
   under the `docker/` directory
 
