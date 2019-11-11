@@ -1,7 +1,7 @@
 FROM debian:jessie
 
 RUN apt-get update \
-    && apt-get upgrade \
+    && apt-get upgrade -y \
     && apt-get install -y \
         enchant \
         python3 \
